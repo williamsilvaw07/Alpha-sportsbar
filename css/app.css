@@ -432,6 +432,7 @@ h1 {
 
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    z-index: 999!important
 
 
 }
@@ -1614,6 +1615,14 @@ footer {
         font-size: 13px;
         padding: 10px 40px 10px 40px;
     }
+    #header_home {
+
+
+        border-bottom-left-radius: 150px;
+        border-bottom-right-radius: 150px;
+
+    }
+
 }
 
 
@@ -1780,6 +1789,20 @@ footer {
     .logo {
         margin-left: 2%;
     }
+
+    .home_form  button{
+    padding:  3px 70px 3px 70px!important;
+    font-size: 12px!important;
+    background-color: white
+    }
+
+    .image_grid {
+      text-align: center;
+    }
+    .lower_footer{
+      text-align: center;;
+      margin: 0 10px
+    }
 }
 
 
@@ -1829,12 +1852,16 @@ footer {
         padding: 10px 40px 10px 40px;
         margin-top: -10%
     }
+    .menu {
+        margin-top: -50px
 
+
+    }
 
 
     .logo {
         margin-left: 10%;
-        top: -120px
+        top: -170px
     }
 
     .logo img {
@@ -1900,7 +1927,7 @@ footer {
 
     .logo img {
         height: 300px;
-        margin-top: 200%
+        margin-top: 5%
     }
 }
 
@@ -2641,21 +2668,26 @@ footer {
 
 
 
-@media only screen and (max-device-width :1633px) {
+@media only screen and (max-width :1633px) {
 
     .about_inner_grid {
-        margin-left: 40px;
+        margin-left: 80px;
 
 
 
     }
+    #svg_about_us_top {
+        position: absolute;
+        bottom: 190px;
+    }
+
 }
 
 
 
 
 
-@media only screen and (max-device-width :1473px) {
+@media only screen and (max-width :1473px) {
 
     .about_inner_grid img {
         height: 350px;
@@ -2685,7 +2717,7 @@ footer {
 
 
 
-@media only screen and (max-device-width :1338px) {
+@media only screen and (max-width :1338px) {
 
 
     #svg_about_us_top {
@@ -2708,7 +2740,7 @@ footer {
 
 
 
-@media only screen and (max-device-width :1207px) {
+@media only screen and (max-width :1207px) {
 
     .main_about_div h2 {
         font-size: 30px;
@@ -2739,7 +2771,7 @@ footer {
 
 
 
-@media only screen and (max-device-width :1002px) {
+@media only screen and (max-width :1002px) {
 
 
     .middle_grid_about img {
@@ -2759,7 +2791,7 @@ footer {
 
 
 
-@media only screen and (max-device-width :960px) {
+@media only screen and (max-width :960px) {
 
 
     .about_top_main h1 {
@@ -2800,7 +2832,7 @@ footer {
 
 
 
-@media only screen and (max-device-width :675px) {
+@media only screen and (max-width :675px) {
 
 
     .about_grid,
@@ -2831,7 +2863,7 @@ footer {
 
 
 
-@media only screen and (max-device-width :424px) {
+@media only screen and (max-width :424px) {
 
 
 
@@ -2853,7 +2885,7 @@ footer {
 
 
 
-@media only screen and (max-device-width :376px) {
+@media only screen and (max-width :376px) {
 
 
 
