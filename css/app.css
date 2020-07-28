@@ -2732,6 +2732,15 @@ footer {
     .about_top_main h1 {
         margin-top: 200px
     }
+
+    svg{
+      display: none
+    }
+
+    header{
+      border-bottom-left-radius: 300px;
+      border-bottom-right-radius: 300px;
+    }
 }
 
 
