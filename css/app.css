@@ -10,7 +10,8 @@
 body {
     margin: 0px;
     padding: 0;
-   
+    overflow-x: hidden;
+
 
 
 }
@@ -129,7 +130,9 @@ html {
     transition: ease-out 0.3s;
 }
 
-
+#right_side_nav a{
+  color: white
+}
 
 .destop_nav li:hover {
     -webkit-transform: scale(1.2);
@@ -137,7 +140,7 @@ html {
     -webkit-transition: ease-out 0.3s;
     -webkit-transition: ease-in 0.3s;
     transition: ease-in 0.3s;
-    color: #f1c761;
+    color: #f1c761!important;
     cursor: pointer;
 }
 
@@ -376,7 +379,7 @@ h1 {
     padding-left: 20%;
     padding-right: 20%;
     transition: ease-out 0.3s;
-   
+
 }
 
 #book_hamburger {
@@ -404,7 +407,7 @@ h1 {
     font-size: 200%;
     font-weight: 600;
     letter-spacing: 1.7px
-    
+
 }
 
 
@@ -431,7 +434,7 @@ h1 {
 
     -webkit-transition: 0.5s;
     transition: 0.5s;
-  
+
 
 }
 
@@ -461,6 +464,8 @@ a {
 
 
 /*home button **/
+
+
 .btn {
 
     padding: 20px 60px 20px 60px;
@@ -484,10 +489,17 @@ a {
 
 .btn:first-child {
     background-color: #f1c761;
+    margin-right: 50px
 
 
 
 }
+
+.home_main_btn a{
+list-style: none;
+text-decoration: none;}
+
+
 
 .btn:last-child:hover {
     background-color: #f1c761;
@@ -805,7 +817,7 @@ a {
     transition: ease-out 0.3s;
     cursor: pointer;
     background-color: white
-    
+
 }
 
 
@@ -1012,7 +1024,9 @@ footer {
 
 @media screen and (max-width: 3400px) {
 
-
+  .top_drink_page h1{
+    margin-top: 600px!important
+  }
 
     .bottle_image img {
         height: 450px;
@@ -1046,7 +1060,9 @@ footer {
 
 @media screen and (max-width: 2900px) {
 
-
+  .top_drink_page h1{
+    margin-top: 500px!important
+  }
 
     .bottle_image img {
         height: 350px;
@@ -1073,7 +1089,9 @@ footer {
 
 @media screen and (max-width: 2890px) {
 
-
+  .top_drink_page h1{
+    margin-top: 450px!important
+  }
 
     .bottle_image img {
         height: 350px;
@@ -1106,7 +1124,9 @@ footer {
 
 @media screen and (max-width: 2400px) {
 
-
+  .top_drink_page h1{
+    margin-top: 570px!important
+  }
 
     .bottle_image img {
         height: 350px;
@@ -1144,7 +1164,9 @@ footer {
 
 @media screen and (max-width: 2400px) {
 
-
+  .top_drink_page h1{
+    margin-top: 500px!important
+  }
 
     .bottle_image img {
         height: 350px;
@@ -1176,7 +1198,9 @@ footer {
 
 @media screen and (max-width: 2150px) {
 
-
+  .top_drink_page h1{
+    margin-top: 450px!important
+  }
 
     .bottle_image img {
         height: 390px;
@@ -1201,6 +1225,9 @@ footer {
 
 @media screen and (max-width: 1900px) {
 
+  .top_drink_page h1{
+    margin-top: 400px!important
+  }
 
 
     .bottle_image img {
@@ -1258,6 +1285,9 @@ footer {
 
 @media screen and (max-width: 1480px) {
 
+  .top_drink_page h1{
+    margin-top: 350px!important
+  }
 
 
     .bottle_image img {
@@ -1289,11 +1319,11 @@ footer {
    .home_form input {
     padding: 10px 10px 10px 10px!important
 }
-    
+
     .bottom_home_section2 button {
     padding: 10px 20px 10px 20px!important;
-   
-    
+
+
 }
 }
 
@@ -1324,6 +1354,9 @@ footer {
 
 
 @media screen and (max-width: 1360px) {
+  .top_drink_page h1{
+    margin-top: 550px!important
+  }
 
 
     .menu {
@@ -1374,11 +1407,11 @@ footer {
      .footer_grid h3{
         font-size: 20px
     }
-    
+
     .footer_inner li{
         font-size: 18px
     }
-    
+
        .footer_inner3 p{
         font-size: 18px
     }
@@ -1399,7 +1432,10 @@ footer {
 
 @media screen and (max-width: 1200px) {
 
-
+  .top_drink_page h1{
+    margin-top: 550px!important
+  }
+  }
 
 
     #second_image img {
@@ -1502,17 +1538,17 @@ footer {
         padding-left: 10%;
         padding-right: 10%;
     }
-    
+
        .home_form input {
     padding: 10px 10px 10px 10px!important
 }
-    
+
     .bottom_home_section2 button {
     padding: 10px 60px 10px 60px!important;
         margin-left: 0;
         margin-top: 20px
-   
-    
+
+
 }
 }
 
@@ -1586,7 +1622,9 @@ footer {
     .bottom_home_section2 h1:last-child {
         margin-top: 10%
     }
-   
+.top_drink_page h1{
+  margin-top: 550px!important
+}
 }
 
 
@@ -1787,8 +1825,8 @@ footer {
     .menu{
         top: 70px
     }
-    
-   
+
+
 }
 
 
@@ -1812,13 +1850,13 @@ footer {
     }
     #header_home {
 
-    
+
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
 
 }
-    
-    
+
+
     .bottom_home_section2 h1{
         font-size: 34px!important
     }
@@ -1826,13 +1864,13 @@ footer {
         margin-top:100px
     }
     .home_main_text{
-         margin-top:40px 
+         margin-top:40px
     }
     .bottle_image{
-        
-         margin-top:40px 
+
+         margin-top:40px
     }
-    
+
     #svg_about_us_top{
         display: none
     }
@@ -1843,22 +1881,22 @@ footer {
     .about_top_main{
 margin-top: -100px
     }
-    
+
     .main_middel_div{
         margin-top: 50px!important
     }
-    
+
     .form{
         margin-top: 50px!important
     }
-    
-    
+
+
 .bottom_home_section2 button {
     padding: 5px 69px 5px 69px!important;
     margin-left: 0%;
-    
-   
-    
+
+
+
 }
 
 }
@@ -1910,8 +1948,8 @@ margin-top: -100px
     .logo img {
         height: 330px
     }
-    
-   
+
+
 #second_image_second img {
     height: 200px;
     margin-top: 15%;
@@ -1920,18 +1958,18 @@ margin-top: -100px
 }
 footer {
     margin-top: -6%;
-   
+
 
 }
-    
+
     footer h3{
         font-size: 22px!important
     }
-    
+
     footer li{
         font-size: 18px!important
     }
-    
+
       footer p{
         font-size: 18px!important
     }
@@ -2310,8 +2348,8 @@ footer {
         margin-left: 20px;
         margin-top: 550px
     }
-    
-    
+
+
 }
 
 
@@ -2333,13 +2371,13 @@ footer {
 
     }
 
- 
+
     .main_middel_drink_page {
         margin-left: 20px;
-      
+
     }
-    
-    
+
+
 }
 
 
@@ -2363,17 +2401,17 @@ footer {
         height: 25vh
     }
 .menu-listing {
- 
+
     top: 10%;
     right: 10%;
- 
-   
-   
+
+
+
 }
     .top_drink_page h1{
         margin-top: 300px
     }
-    
+
     .top_drink_page h2{
         padding-bottom: 50px
     }
@@ -2395,7 +2433,7 @@ footer {
 
     .main_middel_drink_page {
         margin-top: 400px;
-  
+
     }
 
     .header_drink_page {
@@ -2403,25 +2441,25 @@ footer {
         height: 25vh
     }
 .menu-listing {
- 
+
     top: 20%;
     right: 10%;
     font-size: 10px;
-  
- 
-   
-   
+
+
+
+
 }
     .menu-listing li.active_li {
-    
+
     padding-top: 10px
 }
 
-    
+
     .top_drink_page h1{
         margin-top: 430px
     }
-    
+
     .top_drink_page h2{
         padding-bottom: 50px
     }
@@ -2449,24 +2487,24 @@ footer {
 
         height: 25vh
     }
-    
+
     .menu-listing {
- 
+
     top: 20%;
     right: 10%;
     font-size: 10px;
     padding-bottom: 2PX
- 
-   
-   
+
+
+
 }
     .menu-listing li.active_li {
-    
+
     padding-top: 10px
 }
 
-   
-  
+
+
 
 }
 
@@ -2589,8 +2627,8 @@ footer {
   .top_drink_page h1{
         margin-top: 280px!important
     }
-    
-    
+
+
 
 }
 
@@ -2839,7 +2877,7 @@ footer {
 
     .main_about_div h2 {
         font-size: 30px;
- 
+
     }
 
 
@@ -3032,14 +3070,14 @@ footer {
 @media only screen and (device-width : 1280px) and (device-height : 950px) {
 
 
-   
+
     #svg_about_us_top {
 
         bottom: 460px;
     }
 
 
- 
+
 }
 
 
@@ -3225,13 +3263,13 @@ footer {
 @media only screen and (device-width : 800px) and (device-height : 1280px) {
 
 
-   
+
     #svg_about_us_top {
 
         bottom: 650px;
     }
 
- 
+
 }
 
 
@@ -3250,15 +3288,15 @@ footer {
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     margin: auto 200px;
-    
-    
+
+
 }
 
 .form{
     position: relative;
     top: 200px;
     padding-top: 50px
- 
+
 }
 
 
@@ -3302,7 +3340,7 @@ padding: 10px 140px 10px 140px;;
 #map {
   height: 60%;
     width: 60%
-        
+
 }
 
 .title_conatc{
@@ -3321,7 +3359,7 @@ font-size: 20px;
 }
 
 .contact_inner_grid li{
-    
+
      font-family: alibaba-sans, sans-serif;
     list-style: none
 }
@@ -3334,7 +3372,7 @@ font-size: 20px;
 
 
 .contact_inner_grid li:last-child{
-    
+
     margin-bottom: 30px
 }
 
@@ -3364,15 +3402,15 @@ font-size: 20px;
 
 @media only screen and (max-device-width :1129px) {
 
-  
+
 .contact_grid{
- 
+
     grid-template-columns: repeat(1, 1fr);
     margin: 0;
    place-items: center;
 margin-right: 200px
-    
-    
+
+
 }
     #map {
   height: 40%;
@@ -3382,36 +3420,36 @@ padding: 200px 100px 200px 100px;
         margin-bottom: 100px;
         margin-left: 20px
 
-        
-        
+
+
 }
     .form{
         margin-top: -100px;
 
     }
     .contact_inner_grid_first{
-  
+
     }
-    
+
     .icons_conact img{
     height: 30px;
-   
+
 }
 
 .title_conatc{
 
 font-size: 20px;
-   
+
 }
 
 
 .none_title{
-   
+
         font-size: 17px!important;
-    
+
 }
 
-    
+
 }
 
 
@@ -3421,16 +3459,16 @@ font-size: 20px;
 
 @media only screen and (max-device-width :428px) {
 
-  
+
 
 .contact_grid{
- 
+
     grid-template-columns: repeat(1, 1fr);
     margin: 0px 20px 0 20px;;
    place-items: center;
 margin-right: 200px
-    
-    
+
+
 }
     #map {
   height: 30%;
@@ -3440,29 +3478,29 @@ padding: 200px 100px 200px 100px;
         margin-bottom: 100px;
         margin-left: 20px
 
-        
-        
+
+
 }
     .contact_inner_grid_first{
-  
+
     }
-    
+
     .icons_conact img{
     height: 30px;
-   
+
 }
 
 .title_conatc{
 
 font-size: 20px;
-   
+
 }
 
 
 .none_title{
-   
+
         font-size: 17px!important;
-    
+
 }
     .contact_inner_grid{
         margin-left: 30px
@@ -3492,5 +3530,5 @@ padding: 10px 105px 10px 105px;
 
 
 
-    
+
 }
