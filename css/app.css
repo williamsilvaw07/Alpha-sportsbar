@@ -2738,8 +2738,8 @@ footer {
     }
 
     header{
-      border-bottom-left-radius: 300px;
-      border-bottom-right-radius: 300px;
+      border-bottom-left-radius: 150px;
+      border-bottom-right-radius: 150px;
     }
 }
 
