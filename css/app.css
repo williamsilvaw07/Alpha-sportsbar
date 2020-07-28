@@ -10,8 +10,7 @@
 body {
     margin: 0px;
     padding: 0;
-    overflow-x: hidden;
-
+   
 
 
 }
@@ -377,7 +376,7 @@ h1 {
     padding-left: 20%;
     padding-right: 20%;
     transition: ease-out 0.3s;
-
+   
 }
 
 #book_hamburger {
@@ -405,7 +404,7 @@ h1 {
     font-size: 200%;
     font-weight: 600;
     letter-spacing: 1.7px
-
+    
 }
 
 
@@ -432,8 +431,7 @@ h1 {
 
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    z-index: 999!important
-
+  
 
 }
 
@@ -806,7 +804,8 @@ a {
     -webkit-transition: ease-out 0.3s;
     transition: ease-out 0.3s;
     cursor: pointer;
-
+    background-color: white
+    
 }
 
 
@@ -1290,11 +1289,11 @@ footer {
    .home_form input {
     padding: 10px 10px 10px 10px!important
 }
-
+    
     .bottom_home_section2 button {
     padding: 10px 20px 10px 20px!important;
-
-
+   
+    
 }
 }
 
@@ -1375,11 +1374,11 @@ footer {
      .footer_grid h3{
         font-size: 20px
     }
-
+    
     .footer_inner li{
         font-size: 18px
     }
-
+    
        .footer_inner3 p{
         font-size: 18px
     }
@@ -1503,17 +1502,17 @@ footer {
         padding-left: 10%;
         padding-right: 10%;
     }
-
+    
        .home_form input {
     padding: 10px 10px 10px 10px!important
 }
-
+    
     .bottom_home_section2 button {
     padding: 10px 60px 10px 60px!important;
         margin-left: 0;
         margin-top: 20px
-
-
+   
+    
 }
 }
 
@@ -1587,7 +1586,7 @@ footer {
     .bottom_home_section2 h1:last-child {
         margin-top: 10%
     }
-
+   
 }
 
 
@@ -1615,14 +1614,6 @@ footer {
         font-size: 13px;
         padding: 10px 40px 10px 40px;
     }
-    #header_home {
-
-
-        border-bottom-left-radius: 150px;
-        border-bottom-right-radius: 150px;
-
-    }
-
 }
 
 
@@ -1759,6 +1750,9 @@ footer {
     .logo {
         margin-left: 2%;
     }
+     #svg_about_us_top{
+      top: 320px
+    }
 }
 
 
@@ -1788,21 +1782,13 @@ footer {
 
     .logo {
         margin-left: 2%;
+     top: -220px
     }
-
-    .home_form  button{
-    padding:  3px 70px 3px 70px!important;
-    font-size: 12px!important;
-    background-color: white
+    .menu{
+        top: 70px
     }
-
-    .image_grid {
-      text-align: center;
-    }
-    .lower_footer{
-      text-align: center;;
-      margin: 0 10px
-    }
+    
+   
 }
 
 
@@ -1814,6 +1800,67 @@ footer {
 
         display: grid
     }
+      .image_grid {
+      text-align: center;
+    }
+    .lower_footer{
+             text-align: center;
+        margin: 0 20px
+    }
+    .footer_grid{
+        margin-left: 20px
+    }
+    #header_home {
+
+    
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+
+}
+    
+    
+    .bottom_home_section2 h1{
+        font-size: 34px!important
+    }
+    .main_home{
+        margin-top:100px
+    }
+    .home_main_text{
+         margin-top:40px 
+    }
+    .bottle_image{
+        
+         margin-top:40px 
+    }
+    
+    #svg_about_us_top{
+        display: none
+    }
+    .about_top_main h1{
+    position: relative;
+        top: 140px
+    }
+    .about_top_main{
+margin-top: -100px
+    }
+    
+    .main_middel_div{
+        margin-top: 50px!important
+    }
+    
+    .form{
+        margin-top: 50px!important
+    }
+    
+    
+.bottom_home_section2 button {
+    padding: 5px 69px 5px 69px!important;
+    margin-left: 0%;
+    
+   
+    
+}
+
 }
 
 
@@ -1852,23 +1899,19 @@ footer {
         padding: 10px 40px 10px 40px;
         margin-top: -10%
     }
-    .menu {
-        margin-top: -50px
 
-
-    }
 
 
     .logo {
         margin-left: 10%;
-        top: -170px
+        top: -160px
     }
 
     .logo img {
         height: 330px
     }
-
-
+    
+   
 #second_image_second img {
     height: 200px;
     margin-top: 15%;
@@ -1877,18 +1920,18 @@ footer {
 }
 footer {
     margin-top: -6%;
-
+   
 
 }
-
+    
     footer h3{
         font-size: 22px!important
     }
-
+    
     footer li{
         font-size: 18px!important
     }
-
+    
       footer p{
         font-size: 18px!important
     }
@@ -1927,7 +1970,7 @@ footer {
 
     .logo img {
         height: 300px;
-        margin-top: 5%
+        margin-top: 200%
     }
 }
 
@@ -2124,7 +2167,7 @@ footer {
 
 
 
-@media only screen and (min-width :1283px) and (max-width :2300px) {
+@media only screen and (min-device-width :1283px) and (max-device-width :2300px) {
 
 
 
@@ -2154,7 +2197,7 @@ footer {
 
 
 
-@media only screen and (min-width :1200px) and (max-width :2350px) {
+@media only screen and (min-device-width :1200px) and (max-device-width :2350px) {
 
 
 
@@ -2177,7 +2220,7 @@ footer {
 
 
 
-@media only screen and (min-width :700px) and (max-width :1200px) {
+@media only screen and (min-device-width :700px) and (max-device-width :1200px) {
 
 
 
@@ -2223,7 +2266,7 @@ footer {
 
 
 
-@media only screen and (min-width :400px) and (max-width :700px) {
+@media only screen and (min-device-width :400px) and (max-device-width :700px) {
 
 
 
@@ -2237,12 +2280,13 @@ footer {
     }
 
     .top_drink_page h1 {
-        font-size: 50px
+        font-size: 50px;
+
     }
 
     .top_drink_page h2 {
         font-size: 30px;
-        margin-top: 80px
+        margin-top: 0px
     }
 
     .main_middel_drink_page h3 {
@@ -2266,6 +2310,36 @@ footer {
         margin-left: 20px;
         margin-top: 550px
     }
+    
+    
+}
+
+
+
+
+
+
+
+@media only screen and (min-device-width :500px) and (max-device-width :1500px) {
+
+
+    .top_drink_page h1 {
+        font-size: 50px;
+        margin-top: 450px
+    }
+
+    .top_drink_page h2 {
+        font-size: 30px;
+
+    }
+
+ 
+    .main_middel_drink_page {
+        margin-left: 20px;
+      
+    }
+    
+    
 }
 
 
@@ -2274,7 +2348,7 @@ footer {
 
 /****iphone x**/
 
-@media only screen and (width : 375px) and (height : 812px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
 
     .main_middel_div {
         margin-top: 200px
@@ -2289,14 +2363,20 @@ footer {
         height: 25vh
     }
 .menu-listing {
-
+ 
     top: 10%;
     right: 10%;
-
-
-
+ 
+   
+   
 }
-
+    .top_drink_page h1{
+        margin-top: 300px
+    }
+    
+    .top_drink_page h2{
+        padding-bottom: 50px
+    }
 }
 
 
@@ -2304,16 +2384,18 @@ footer {
 
 /****iphone 8**/
 
-@media only screen and (width : 375px) and (height : 667px) and (-webkit-device-pixel-ratio : 2) {
+@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
 
 
 
     .main_middel_div {
-        margin-top: 300px
+        margin-top: 450px;
+        margin-left: -35px
     }
 
     .main_middel_drink_page {
-        margin-top: 400px
+        margin-top: 400px;
+  
     }
 
     .header_drink_page {
@@ -2321,18 +2403,28 @@ footer {
         height: 25vh
     }
 .menu-listing {
-
+ 
     top: 20%;
     right: 10%;
     font-size: 10px;
-    padding-bottom: 2PX
-
-
-
+  
+ 
+   
+   
 }
     .menu-listing li.active_li {
-
+    
     padding-top: 10px
+}
+
+    
+    .top_drink_page h1{
+        margin-top: 430px
+    }
+    
+    .top_drink_page h2{
+        padding-bottom: 50px
+    }
 }
 
 }
@@ -2341,7 +2433,7 @@ footer {
 
 /****iphone 8 plus**/
 
-@media only screen and (width : 414px) and (height : 736px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (device-width : 414px) and (device-height : 736px) and (-webkit-device-pixel-ratio : 3) {
 
 
 
@@ -2357,29 +2449,30 @@ footer {
 
         height: 25vh
     }
-
+    
     .menu-listing {
-
+ 
     top: 20%;
     right: 10%;
     font-size: 10px;
     padding-bottom: 2PX
-
-
-
+ 
+   
+   
 }
     .menu-listing li.active_li {
-
+    
     padding-top: 10px
 }
 
-}
+   
+  
 
 }
 
 /***ipad ***/
 
-@media only screen and (width : 768px) and (height : 1024px) and (-webkit-device-pixel-ratio : 2) {
+@media only screen and (device-width : 768px) and (device-height : 1024px) and (-webkit-device-pixel-ratio : 2) {
 
 
 
@@ -2391,7 +2484,7 @@ footer {
 
 /***ipad pro***/
 
-@media only screen and (width : 1024px) and (height : 1366px) and (-webkit-device-pixel-ratio : 2) {
+@media only screen and (device-width : 1024px) and (device-height : 1366px) and (-webkit-device-pixel-ratio : 2) {
 
 
 
@@ -2400,7 +2493,7 @@ footer {
     }
 }
 
-@media only screen and (min-width :376px) and (max-width :400px) {
+@media only screen and (min-device-width :376px) and (max-device-width :400px) {
 
 
     .header_drink_page {
@@ -2442,13 +2535,15 @@ footer {
         margin-left: 20px;
         margin-right: 20px;
     }
-
+ .top_drink_page h1{
+        margin-top: 280px!important
+    }
 
 }
 
 
 
-@media only screen and (min-width :300px) and (max-width :374px) {
+@media only screen and (min-device-width :300px) and (max-device-width :374px) {
 
 
     .header_drink_page {
@@ -2491,6 +2586,11 @@ footer {
         margin-right: 20px;
     }
 
+  .top_drink_page h1{
+        margin-top: 280px!important
+    }
+    
+    
 
 }
 
@@ -2668,26 +2768,21 @@ footer {
 
 
 
-@media only screen and (max-width :1633px) {
+@media only screen and (max-device-width :1633px) {
 
     .about_inner_grid {
-        margin-left: 80px;
+        margin-left: 40px;
 
 
 
     }
-    #svg_about_us_top {
-        position: absolute;
-        bottom: 190px;
-    }
-
 }
 
 
 
 
 
-@media only screen and (max-width :1473px) {
+@media only screen and (max-device-width :1473px) {
 
     .about_inner_grid img {
         height: 350px;
@@ -2717,7 +2812,7 @@ footer {
 
 
 
-@media only screen and (max-width :1338px) {
+@media only screen and (max-device-width :1338px) {
 
 
     #svg_about_us_top {
@@ -2732,15 +2827,6 @@ footer {
     .about_top_main h1 {
         margin-top: 200px
     }
-
-    svg{
-      display: none
-    }
-
-    header{
-      border-bottom-left-radius: 150px;
-      border-bottom-right-radius: 150px;
-    }
 }
 
 
@@ -2749,11 +2835,11 @@ footer {
 
 
 
-@media only screen and (max-width :1207px) {
+@media only screen and (max-device-width :1207px) {
 
     .main_about_div h2 {
         font-size: 30px;
-
+ 
     }
 
 
@@ -2780,7 +2866,7 @@ footer {
 
 
 
-@media only screen and (max-width :1002px) {
+@media only screen and (max-device-width :1002px) {
 
 
     .middle_grid_about img {
@@ -2800,7 +2886,7 @@ footer {
 
 
 
-@media only screen and (max-width :960px) {
+@media only screen and (max-device-width :960px) {
 
 
     .about_top_main h1 {
@@ -2841,7 +2927,7 @@ footer {
 
 
 
-@media only screen and (max-width :675px) {
+@media only screen and (max-device-width :675px) {
 
 
     .about_grid,
@@ -2872,7 +2958,7 @@ footer {
 
 
 
-@media only screen and (max-width :424px) {
+@media only screen and (max-device-width :424px) {
 
 
 
@@ -2894,7 +2980,7 @@ footer {
 
 
 
-@media only screen and (max-width :376px) {
+@media only screen and (max-device-width :376px) {
 
 
 
@@ -2943,17 +3029,17 @@ footer {
 
 
 
-@media only screen and (width : 1280px) and (height : 950px) {
+@media only screen and (device-width : 1280px) and (device-height : 950px) {
 
 
-
+   
     #svg_about_us_top {
 
         bottom: 460px;
     }
 
 
-
+ 
 }
 
 
@@ -2963,7 +3049,7 @@ footer {
 
 /****iphone x**/
 
-@media only screen and (width : 375px) and (height : 812px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
 
 
 
@@ -2984,7 +3070,7 @@ footer {
 
 /****iphone 8**/
 
-@media only screen and (width : 375px) and (height : 667px) and (-webkit-device-pixel-ratio : 2) {
+@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
 
 
     .about_top_main h1 {
@@ -3007,7 +3093,7 @@ footer {
 
 /****iphone 8 plus**/
 
-@media only screen and (width : 414px) and (height : 736px) and (-webkit-device-pixel-ratio : 3) {
+@media only screen and (device-width : 414px) and (device-height : 736px) and (-webkit-device-pixel-ratio : 3) {
 
 
 
@@ -3028,7 +3114,7 @@ footer {
 
 /***ipad ***/
 
-@media only screen and (width : 768px) and (height : 1024px) and (-webkit-device-pixel-ratio : 2) {
+@media only screen and (device-width : 768px) and (device-height : 1024px) and (-webkit-device-pixel-ratio : 2) {
 
 
     .about_top_main h1 {
@@ -3054,7 +3140,7 @@ footer {
 
 /***ipad pro***/
 
-@media only screen and (width : 1024px) and (height : 1366px) and (-webkit-device-pixel-ratio : 2) {
+@media only screen and (device-width : 1024px) and (device-height : 1366px) and (-webkit-device-pixel-ratio : 2) {
 
 
     .about_top_main h1 {
@@ -3083,7 +3169,7 @@ footer {
 
 /***galaxy s5***/
 
-@media only screen and (width : 360px) and (height : 640px) {
+@media only screen and (device-width : 360px) and (device-height : 640px) {
 
 
     .about_top_main h1 {
@@ -3111,7 +3197,7 @@ footer {
 
 /***pixel 2***/
 
-@media only screen and (width : 411px) and (height : 731px) {
+@media only screen and (device-width : 411px) and (device-height : 731px) {
 
 
     .about_top_main h1 {
@@ -3136,16 +3222,16 @@ footer {
 
 
 /*****nexus 10 **/
-@media only screen and (width : 800px) and (height : 1280px) {
+@media only screen and (device-width : 800px) and (device-height : 1280px) {
 
 
-
+   
     #svg_about_us_top {
 
         bottom: 650px;
     }
 
-
+ 
 }
 
 
@@ -3164,15 +3250,15 @@ footer {
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     margin: auto 200px;
-
-
+    
+    
 }
 
 .form{
     position: relative;
     top: 200px;
     padding-top: 50px
-
+ 
 }
 
 
@@ -3216,7 +3302,7 @@ padding: 10px 140px 10px 140px;;
 #map {
   height: 60%;
     width: 60%
-
+        
 }
 
 .title_conatc{
@@ -3235,7 +3321,7 @@ font-size: 20px;
 }
 
 .contact_inner_grid li{
-
+    
      font-family: alibaba-sans, sans-serif;
     list-style: none
 }
@@ -3248,7 +3334,7 @@ font-size: 20px;
 
 
 .contact_inner_grid li:last-child{
-
+    
     margin-bottom: 30px
 }
 
@@ -3265,7 +3351,7 @@ font-size: 20px;
 
 
 
-@media only screen and (max-width :1360px) {
+@media only screen and (max-device-width :1360px) {
 
     .form{
  margin-right: -200px
@@ -3276,17 +3362,17 @@ font-size: 20px;
 
 
 
-@media only screen and (max-width :1129px) {
+@media only screen and (max-device-width :1129px) {
 
-
+  
 .contact_grid{
-
+ 
     grid-template-columns: repeat(1, 1fr);
     margin: 0;
    place-items: center;
 margin-right: 200px
-
-
+    
+    
 }
     #map {
   height: 40%;
@@ -3296,55 +3382,55 @@ padding: 200px 100px 200px 100px;
         margin-bottom: 100px;
         margin-left: 20px
 
-
-
+        
+        
 }
     .form{
         margin-top: -100px;
 
     }
     .contact_inner_grid_first{
-
+  
     }
-
+    
     .icons_conact img{
     height: 30px;
-
+   
 }
 
 .title_conatc{
 
 font-size: 20px;
-
+   
 }
 
 
 .none_title{
-
+   
         font-size: 17px!important;
+    
+}
 
+    
 }
 
 
-}
 
 
 
 
+@media only screen and (max-device-width :428px) {
 
-
-@media only screen and (max-width :428px) {
-
-
+  
 
 .contact_grid{
-
+ 
     grid-template-columns: repeat(1, 1fr);
     margin: 0px 20px 0 20px;;
    place-items: center;
 margin-right: 200px
-
-
+    
+    
 }
     #map {
   height: 30%;
@@ -3354,29 +3440,29 @@ padding: 200px 100px 200px 100px;
         margin-bottom: 100px;
         margin-left: 20px
 
-
-
+        
+        
 }
     .contact_inner_grid_first{
-
+  
     }
-
+    
     .icons_conact img{
     height: 30px;
-
+   
 }
 
 .title_conatc{
 
 font-size: 20px;
-
+   
 }
 
 
 .none_title{
-
+   
         font-size: 17px!important;
-
+    
 }
     .contact_inner_grid{
         margin-left: 30px
@@ -3406,5 +3492,5 @@ padding: 10px 105px 10px 105px;
 
 
 
-
+    
 }
