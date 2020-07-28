@@ -105,18 +105,15 @@ $("#bar_team").mouseleave(function () {
 })
 
 
-
-
 function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat:52.2402, lng: 150.644 },
-    zoom: 8
+  const myLatLng = { lat:52.2402, lng: -0.9153  };
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 17,
+    center: myLatLng
+  });
+  new google.maps.Marker({
+    position: myLatLng,
+    map,
+    title: "Hello World!"
   });
 }
-
-
-
-
-
-
-
