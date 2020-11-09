@@ -778,7 +778,8 @@ a {
     justify-content: center;
     font-family: alibaba-sans, sans-serif;
     font-weight: lighter;
-    text-align: center !important
+    text-align: center !important;
+
 }
 
 .bottom_home_section2 h3 {
@@ -810,9 +811,14 @@ a {
     -webkit-transition: ease-out 0.3s;
     transition: ease-out 0.3s;
     cursor: pointer;
-    background-color: white
+    background-color: white;
+    margin-top: 30px
 }
 
+.home_form {
+    width: 50%;
+    margin: 0 auto
+}
 
 .bottom_home_section2 button:hover {
     background-color: #f1c761;
