@@ -10,7 +10,7 @@
 body {
     margin: 0px;
     padding: 0;
-   overflow-x: hidden;
+    overflow-x: hidden;
 
 
 
@@ -347,9 +347,8 @@ h1 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-          text-transform: uppercase;
+    text-transform: uppercase;
     margin-right: -100px
-
 }
 
 
@@ -405,7 +404,6 @@ h1 {
     font-size: 200%;
     font-weight: 600;
     letter-spacing: 1.7px
-
 }
 
 
@@ -437,11 +435,11 @@ h1 {
 }
 
 .menu-listing li a:hover {
- -webkit-box-shadow: inset 400px 0 0 0 black;
- box-shadow: inset 400px 0 0 0 black;
- -webkit-transition: 0.5s;
+    -webkit-box-shadow: inset 400px 0 0 0 black;
+    box-shadow: inset 400px 0 0 0 black;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
-    color:  white
+    color: white
 }
 
 .menu-listing li a:active {
@@ -464,11 +462,9 @@ a {
 /*home button **/
 .btn {
 
-    padding: 20px 60px 20px 60px;
+
     text-transform: uppercase;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 40px;
+    padding: 15px 60px;
     background-color: transparent;
     border: 2px solid #f1c761;
     position: relative;
@@ -476,27 +472,26 @@ a {
     color: white;
     border-radius: 10px;
     font-family: alibaba-sans, sans-serif;
-    font-size: 18px!important;
+    font-size: 18px !important;
     letter-spacing: 1.7px;
     -webkit-transition: ease-out 0.3s;
     transition: ease-out 0.3s;
     cursor: pointer;
 
 }
-#menu_btn{
-margin-left: 20px
+
+.menu_btn {
+    margin-right: 20px;
+    background-color: transparent;
+     !important
 }
 
 
-#whatsOn_btn{
-  margin-right: 20px
-}
-.btn:first-child {
+.whatsOn_btn {
+    margin-right: 20px;
     background-color: #f1c761;
-
-
-
 }
+
 
 .btn:last-child:hover {
     background-color: #f1c761;
@@ -783,7 +778,7 @@ margin-left: 20px
     justify-content: center;
     font-family: alibaba-sans, sans-serif;
     font-weight: lighter;
-    text-align: center!important
+    text-align: center !important
 }
 
 .bottom_home_section2 h3 {
@@ -804,19 +799,18 @@ margin-left: 20px
     margin-right: 4%
 }
 
-.home_form  input {
-    padding: 20px 80px 20px 20px!important
+.home_form input {
+    padding: 20px 80px 20px 20px !important
 }
 
 .bottom_home_section2 button {
-    padding: 10px 50px 10px 50px!important;
+    padding: 10px 50px 10px 50px !important;
     margin-left: 3%;
     border: 2px solid #f1c761;
     -webkit-transition: ease-out 0.3s;
     transition: ease-out 0.3s;
     cursor: pointer;
     background-color: white
-
 }
 
 
@@ -1257,12 +1251,29 @@ footer {
         margin-top: 15%;
 
     }
-.home_form input{
-    padding: 10px 40px 10px 10px!important
-}
+
+    .home_form input {
+        padding: 10px 40px 10px 10px !important
+    }
 }
 
 
+
+
+
+@media screen and (max-width: 1640px) {
+
+    #first_pic_about,
+    #second_pic_about {
+        width: 150px
+    }
+
+    .about_inner_grid_first {
+
+        width: 500px !important;
+
+    }
+}
 
 
 
@@ -1297,15 +1308,16 @@ footer {
         color: #f1c761;
         grid-gap: 2%
     }
-   .home_form input {
-    padding: 10px 10px 10px 10px!important
-}
+
+    .home_form input {
+        padding: 10px 10px 10px 10px !important
+    }
 
     .bottom_home_section2 button {
-    padding: 10px 20px 10px 20px!important;
+        padding: 10px 20px 10px 20px !important;
 
 
-}
+    }
 }
 
 
@@ -1379,18 +1391,19 @@ footer {
 
     }
 
-    .bottom_home_section2 h1{
-        font-size: 50px!important
+    .bottom_home_section2 h1 {
+        font-size: 50px !important
     }
-     .footer_grid h3{
+
+    .footer_grid h3 {
         font-size: 20px
     }
 
-    .footer_inner li{
+    .footer_inner li {
         font-size: 18px
     }
 
-       .footer_inner3 p{
+    .footer_inner3 p {
         font-size: 18px
     }
 }
@@ -1441,7 +1454,7 @@ footer {
 }
 
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 1175px) {
 
 
 
@@ -1478,7 +1491,9 @@ footer {
         font-size: 80px
     }
 
-
+    .about_inner_grid {
+        margin-left: 50px !important;
+    }
 }
 
 
@@ -1514,18 +1529,37 @@ footer {
         padding-right: 10%;
     }
 
-       .home_form input {
-    padding: 10px 10px 10px 10px!important
-}
+    .home_form input {
+        padding: 10px 10px 10px 10px !important
+    }
 
     .bottom_home_section2 button {
-    padding: 10px 60px 10px 60px!important;
+        padding: 10px 60px 10px 60px !important;
         margin-left: 0;
         margin-top: 20px
+    }
+}
 
 
+
+
+
+
+@media screen and (max-width: 998px) {
+
+
+    #first_pic_about,
+    #second_pic_about {
+        width: 100px;
+        height: 300px
+    }
+
+    .about_inner_grid_first {
+        width: 300px !important;
+    }
+
 }
-}
+
 
 @media screen and (max-width: 900px) {
 
@@ -1712,6 +1746,12 @@ footer {
 
     }
 
+    .grid_home {
+
+
+        display: grid
+    }
+
     .footer_grid h3 {
         font-size: 28px
     }
@@ -1761,8 +1801,9 @@ footer {
     .logo {
         margin-left: 2%;
     }
-     #svg_about_us_top{
-      top: 320px
+
+    #svg_about_us_top {
+        top: 320px
     }
 }
 
@@ -1793,9 +1834,10 @@ footer {
 
     .logo {
         margin-left: 2%;
-     top: -220px
+        top: -220px
     }
-    .menu{
+
+    .menu {
         top: 70px
     }
 
@@ -1811,66 +1853,75 @@ footer {
 
         display: grid
     }
-      .image_grid {
-      text-align: center;
+
+    .image_grid {
+        text-align: center;
     }
-    .lower_footer{
-             text-align: center;
+
+    .lower_footer {
+        text-align: center;
         margin: 0 20px
     }
-    .footer_grid{
+
+    .footer_grid {
         margin-left: 20px
     }
+
     #header_home {
 
 
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
 
-}
-
-
-    .bottom_home_section2 h1{
-        font-size: 34px!important
-    }
-    .main_home{
-        margin-top:100px
-    }
-    .home_main_text{
-         margin-top:40px
-    }
-    .bottle_image{
-
-         margin-top:40px
     }
 
-    #svg_about_us_top{
+
+    .bottom_home_section2 h1 {
+        font-size: 34px !important
+    }
+
+    .main_home {
+        margin-top: 100px
+    }
+
+    .home_main_text {
+        margin-top: 40px
+    }
+
+    .bottle_image {
+
+        margin-top: 40px
+    }
+
+    #svg_about_us_top {
         display: none
     }
-    .about_top_main h1{
-    position: relative;
+
+    .about_top_main h1 {
+        position: relative;
         top: 140px
     }
-    .about_top_main{
-margin-top: -100px
+
+    .about_top_main {
+        margin-top: -100px
     }
 
-    .main_middel_div{
-        margin-top: 50px!important
+    .main_middel_div {
+        margin-top: 50px !important
     }
 
-    .form{
-        margin-top: 50px!important
+    .form {
+        margin-top: 50px !important
     }
 
 
-.bottom_home_section2 button {
-    padding: 5px 69px 5px 69px!important;
-    margin-left: 0%;
+    .bottom_home_section2 button {
+        padding: 5px 69px 5px 69px !important;
+        margin-left: 0%;
 
 
 
-}
+    }
 
 }
 
@@ -1924,31 +1975,33 @@ margin-top: -100px
 
 
 
-#second_image_second img {
-    height: 200px;
-    margin-top: 15%;
+    #second_image_second img {
+        height: 200px;
+        margin-top: 15%;
 
-    margin-left: 0
-}
-footer {
-    margin-top: -6%;
-
-
-}
-
-    footer h3{
-        font-size: 22px!important
+        margin-left: 0
     }
 
-    footer li{
-        font-size: 18px!important
+    footer {
+        margin-top: -6%;
+
+
     }
 
-      footer p{
-        font-size: 18px!important
+    footer h3 {
+        font-size: 22px !important
     }
+
+    footer li {
+        font-size: 18px !important
+    }
+
+    footer p {
+        font-size: 18px !important
+    }
+
     .lower_footer p {
-      font-size: 12px!important
+        font-size: 12px !important
     }
 }
 
@@ -2009,15 +2062,15 @@ footer {
 
 .top_drink_page h1 {
     color: black;
-    position: relative;
-    top: -1100px;
     font-size: 90px;
 
 }
 
 .main_middel_div {
-    position: relative;
-    top: 200px
+    text-align: center;
+    height: 100vh;
+    padding-bottom: 1300px;
+    margin-top: -600px
 }
 
 
@@ -2027,35 +2080,43 @@ footer {
     font-family: alibaba-sans, sans-serif;
     text-align: center;
     color: black;
-    position: relative;
-    top: -1120px;
+
 
 }
 
 .main_middel_drink_page {
-    position: relative;
-    top: -1550px;
-    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+
 
 }
 
 
 
-.main_middel_drink_page h3 {
+.main_middel_div h3 {
     font-size: 30px;
     font-family: alibaba-sans, sans-serif;
-    margin: 50px 0%
+    margin: 50px 0;
 }
 
+.menu_inner {
+    text-align: left;
+    margin: 0 auto;
+    width: 50%
+}
 
-.main_middel_drink_page li {
+.first_h3 {
+    margin-top: 50px !important
+}
+
+.main_middel_div li {
     list-style: none;
     margin-top: 20px
 }
 
 
 .item_title {
-    font-size: 25px;
+    font-size: 20px;
     font-family: alibaba-sans, sans-serif;
     font-weight: 900;
 }
@@ -2067,15 +2128,6 @@ footer {
     font-weight: lighter
 }
 
-.main_middel_drink_page {
-    margin-top: 500px
-}
-
-
-
-.main_middel_div {
-    margin-top: 300px
-}
 
 
 
@@ -2096,80 +2148,10 @@ footer {
 
 
 
-@media screen and (max-width: 1280px) {
 
 
 
 
-    .top_drink_page {
-
-        margin-top: 200px
-    }
-
-}
-
-
-
-
-@media screen and (max-width: 700px) {
-
-
-    .top_drink_page h1 {
-
-        font-size: 50px
-    }
-
-    .top_drink_page h2 {
-        font-size: 30px;
-        margin-top: 90px
-    }
-
-    .main_middel_drink_page h3 {
-        font-size: 30px;
-
-    }
-
-
-    .item_title {
-        font-size: 20px;
-
-    }
-
-    .item_specs {
-
-        font-size: 17px;
-
-    }
-
-
-
-    .header_drink_page {
-
-        height: 15vh
-    }
-
-
-
-}
-
-
-
-
-@media screen and (min-width: 2300px) {
-
-
-
-
-    .header_drink_page {
-
-        height: 10vh
-    }
-
-    .main_middel_div {
-        position: relative;
-        top: 350px
-    }
-}
 
 
 
@@ -2188,22 +2170,21 @@ footer {
         height: 10vh
     }
 
-    .main_middel_div {
-        margin-top: 200px !important
-    }
-
-    .main_middel_drink_page {
-
-        margin-bottom: -70%
-    }
-
-    main_middel_drink_page {
-        margin-top: -400px
-    }
 }
 
 
 
+@media only screen and (max-width :1370px) {
+
+
+
+
+    .main_middel_div {
+        padding-bottom: 1600px
+    }
+
+
+}
 
 
 
@@ -2218,58 +2199,6 @@ footer {
         height: 10vh
     }
 
-    .main_middel_div {
-        margin-top: -100px
-    }
-
-
-
-
-
-}
-
-
-
-
-
-@media only screen and (min-width :700px) and (max-width :1200px) {
-
-
-
-    .header_drink_page {
-
-        height: 10vh
-    }
-
-    .main_middel_div {
-        margin-top: -200px
-    }
-
-    .top_drink_page h1 {
-        font-size: 70px
-    }
-
-    .top_drink_page h2 {
-        font-size: 40px;
-        margin-top: 80px
-    }
-
-    .main_middel_drink_page h3 {
-        font-size: 30px;
-
-    }
-
-    .main_middel_drink_page h3:first-child {
-        margin-top: -150px
-    }
-
-    .item_title {
-        font-size: 25px;
-    }
-
-    .item_specs {
-        font-size: 20px;
-    }
 }
 
 
@@ -2278,82 +2207,110 @@ footer {
 
 
 
-@media only screen and (min-width :400px) and (max-width :700px) {
 
 
 
-    .header_drink_page {
 
-        height: 15vh
-    }
 
-    .main_middel_div {
-        margin-top: -250px
-    }
 
-    .top_drink_page h1 {
+
+
+
+@media screen and (max-width: 1150px) {
+
+
+    .main_middel_div h1 {
         font-size: 50px;
 
     }
 
-    .top_drink_page h2 {
-        font-size: 30px;
+    .main_middel_div h2 {
+        font-size: 25px;
         margin-top: 0px
     }
 
-    .main_middel_drink_page h3 {
-        font-size: 25px;
-
-    }
-
-    .main_middel_drink_page h3:first-child {
-        margin-top: 150px
-    }
-
-    .item_title {
+    .main_middel_div h3 {
         font-size: 20px;
+
     }
+
+
+
 
     .item_specs {
-        font-size: 18px;
-    }
-
-    .main_middel_drink_page {
-        margin-left: 20px;
-        margin-top: 550px
+        font-size: 14px;
     }
 
 
-}
 
 
+    .item_title {
+        font-size: 16px;
 
-
-
-
-
-@media only screen and (min-width :500px) and (max-width :1500px) {
-
-
-    .top_drink_page h1 {
-        font-size: 50px;
-        margin-top: 450px
-    }
-
-    .top_drink_page h2 {
-        font-size: 30px;
 
     }
 
-
-    .main_middel_drink_page {
-        margin-left: 20px;
-
+    .main_middel_div {
+        padding-bottom: 1100px
     }
 
 
 }
 
+
+
+@media screen and (max-width: 950px) {
+
+
+    .main_middel_div {
+        padding-bottom: 2100px
+    }
+
+    .main_middel_drink_page {
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+
+    }
+
+}
+
+
+@media screen and (max-width: 680px) {
+
+
+    .main_middel_div {
+        padding-bottom: 2400px
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 570px) {
+
+
+    .main_middel_div {
+        padding-bottom: 2900px;
+        margin-top: -750px !important
+    }
+
+    .main_middel_drink_page {
+        display: grid;
+        grid-template-columns: 100%;
+
+
+    }
+
+    .menu_inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%
+    }
+
+}
 
 
 
@@ -2362,33 +2319,24 @@ footer {
 
 @media only screen and (width : 375px) and (height : 812px) and (-webkit-device-pixel-ratio : 3) {
 
-    .main_middel_div {
-        margin-top: 200px
-    }
 
-    .main_middel_drink_page {
-        margin-top: 400px
-    }
 
     .header_drink_page {
 
         height: 25vh
     }
-.menu-listing {
 
-    top: 10%;
-    right: 10%;
-
-
-
-}
-    .top_drink_page h1{
-        margin-top: 300px
+    .main_middel_div {
+        padding-bottom: 3000px;
+        margin-top: -600px !important
     }
 
-    .top_drink_page h2{
-        padding-bottom: 50px
+    .menu_inner {
+
+        width: 80%;
+        margin-left: 0
     }
+
 }
 
 
@@ -2398,50 +2346,23 @@ footer {
 
 @media only screen and (width : 375px) and (height : 667px) and (-webkit-device-pixel-ratio : 2) {
 
+    .menu_inner {
 
-
-    .main_middel_div {
-        margin-top: 450px;
-        margin-left: -35px
+        width: 80%;
+        margin-left: 0
     }
 
-    .main_middel_drink_page {
-        margin-top: 400px;
-
-    }
 
     .header_drink_page {
 
         height: 25vh
     }
-.menu-listing {
 
-    top: 20%;
-    right: 10%;
-    font-size: 10px;
-
-
-
-
-}
-    .menu-listing li.active_li
-   {
-
-    padding-top: 10px;
-    margin-left: 50px
-}
-  #book_hamburger{
-        margin-left: 30px
-  }
-
-    .top_drink_page h1{
-        margin-top: 430px
+    .main_middel_div {
+        padding-bottom: 3300px;
+        margin-top: -500px !important
     }
 
-    .top_drink_page h2{
-        padding-bottom: 50px
-    }
-}
 
 }
 
@@ -2453,38 +2374,44 @@ footer {
 
 
 
-    .main_middel_div {
-        margin-top: 200px
-    }
-
-    .main_middel_drink_page {
-        margin-top: 500px
-    }
 
     .header_drink_page {
 
         height: 25vh
     }
 
-    .menu-listing {
+    .main_middel_div {
+        padding-bottom: 3300px;
+        margin-top: -500px !important;
 
-    top: 20%;
-    right: 10%;
-    font-size: 10px;
-    padding-bottom: 2PX
+    }
 
 
+    .menu_inner {
+
+        width: 80%;
+        margin-left: 0
+    }
 
 }
-    .menu-listing li.active_li {
-
-    padding-top: 10px;
-    font-size: 17px!important
-}
 
 
+@media only screen and (min-device-width : 412px) and (min-device-height : 732px) {
+    .main_middel_div {
 
+        margin-top: -500px !important
+    }
 
+    .header_drink_page {
+
+        height: 20vh
+    }
+
+    .menu_inner {
+
+        width: 80%;
+        margin-left: 0
+    }
 }
 
 /***ipad ***/
@@ -2492,9 +2419,15 @@ footer {
 @media only screen and (device-width : 768px) and (device-height : 1024px) and (-webkit-device-pixel-ratio : 2) {
 
 
-
     .main_middel_div {
-        margin-top: -250px
+
+        margin-top: -800px !important
+    }
+
+    .menu_inner {
+
+        width: 80%;
+        margin-left: 0
     }
 }
 
@@ -2504,113 +2437,74 @@ footer {
 @media only screen and (width : 1024px) and (height : 1366px) and (-webkit-device-pixel-ratio : 2) {
 
 
+    .header_drink_page {
+
+        height: 25vh
+    }
 
     .main_middel_div {
-        margin-top: -450px
+
+        margin-top: -900px !important;
+        padding-bottom: 500px
     }
+
+
+
+
 }
 
 @media only screen and (min-width :376px) and (max-width :400px) {
-
-
     .header_drink_page {
 
-        height: 25vh
+        height: 20vh
     }
 
-    .main_middel_div {
-        margin-top: -200px
-    }
+    .menu_inner {
 
-    .top_drink_page h1 {
-        font-size: 40px
-    }
-
-    .top_drink_page h2 {
-        font-size: 30px;
-        margin-top: 80px
-    }
-
-    .main_middel_drink_page h3 {
-        font-size: 25px;
-
-    }
-
-    .main_middel_drink_page h3:first-child {
-        margin-top: 130px
-    }
-
-    .item_title {
-        font-size: 20px;
-    }
-
-    .item_specs {
-        font-size: 18px;
-    }
-
-    .main_middel_drink_page {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
- .top_drink_page h1{
-        margin-top: 280px!important
+        width: 80%;
+        margin-left: 0
     }
 
 }
 
 
 
-@media only screen and (min-width :300px) and (max-width :374px) {
+@media only screen and (min-width :300px) and (max-width :360px) {
 
+
+
+
+    .main_middel_div {
+        padding-bottom: 3800px;
+        margin-top: -400px !important
+    }
 
     .header_drink_page {
 
-        height: 25vh
+        height: 20vh
     }
+
+    .menu_inner {
+
+        width: 80%;
+        margin-left: 0
+    }
+}
+
+
+
+/***Galaxy fold ***/
+
+
+@media only screen and (width :280px) and (height : 653px) and (-webkit-device-pixel-ratio : 3) {
 
     .main_middel_div {
-        margin-top: -200px
+        padding-bottom: 3800px;
+        margin-top: -500px !important
     }
-
-    .top_drink_page h1 {
-        font-size: 40px
-    }
-
-    .top_drink_page h2 {
-        font-size: 30px;
-        margin-top: 80px
-    }
-
-    .main_middel_drink_page h3 {
-        font-size: 25px;
-
-    }
-
-    .main_middel_drink_page h3:first-child {
-        margin-top: 130px
-    }
-
-    .item_title {
-        font-size: 20px;
-    }
-
-    .item_specs {
-        font-size: 18px;
-    }
-
-    .main_middel_drink_page {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-  .top_drink_page h1{
-        margin-top: 280px!important
-    }
-
 
 
 }
-
 
 
 /***end menu page */
@@ -2970,8 +2864,9 @@ footer {
     .about_top_main h1 {
         font-size: 50px
     }
+
     #svg_about_us_top {
-      display: none
+        display: none
     }
 
 }
@@ -3266,99 +3161,114 @@ footer {
 
 
 
-.contact_grid{
-    display:grid;
+.contact_grid {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: auto 200px;
 
 
 }
 
-.form{
+.form {
     position: relative;
     top: 200px;
     padding-top: 50px
-
 }
 
 
-.contact_inner_grid_first{
-width: 60%
+.contact_inner_grid_first {
+    width: 60%
 }
 
 
-form{
+form {
     display: block;
-    float:left;
-       width: 30%;
+    float: left;
+    width: 70%;
 
 }
 
 
-input[type=text]{
-padding: 10px 150px 10px 20px;
+input[type=text] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
     margin-top: 20px;
-         font-family: alibaba-sans, sans-serif;
+    font-family: alibaba-sans, sans-serif;
+    text-transform: capitalize;
+    padding-left: 5px
 }
 
 
-textarea{
+textarea {
 
     margin-top: 20px;
-             font-family: alibaba-sans, sans-serif;
+    font-family: alibaba-sans, sans-serif;
+    width: 100%;
+    text-transform: capitalize;
+    padding-left: 5px
 }
 
 
 
-.form button{
-padding: 10px 140px 10px 140px;;
-    margin-top: 30px;
-         font-family: alibaba-sans, sans-serif;
+.form button {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    font-family: alibaba-sans, sans-serif;
+    background-color: #f1c761;
+    border: none;
+    transition: ease-out all 0.3s
 }
 
+.form button:hover {
+    -webkit-box-shadow: 0px 24px 37px -9px #000000;
+    box-shadow: 0px 24px 37px -9px #000000;
+    transition: ease-in all 0.2s;
 
+}
 
 
 #map {
-  height: 60%;
+    height: 60%;
     width: 60%
-
 }
 
-.title_conatc{
-display: inline-block;
-font-size: 20px;
+.title_conatc {
+    display: inline-block;
+    font-size: 20px;
     font-weight: 700
 }
 
 
-.none_title{
+.none_title {
     display: inline-block;
     margin-left: 20px;
-        font-size: 18px;
+    font-size: 18px;
     font-weight: lighter;
     letter-spacing: 1px
 }
 
-.contact_inner_grid li{
+.contact_inner_grid li {
 
-     font-family: alibaba-sans, sans-serif;
+    font-family: alibaba-sans, sans-serif;
     list-style: none
 }
 
 
-.contact_inner_grid li{
+.contact_inner_grid li {
     font-size: 18px;
-       font-weight: lighter;
+    font-weight: lighter;
 }
 
 
-.contact_inner_grid li:last-child{
+.contact_inner_grid li:last-child {
 
     margin-bottom: 30px
 }
 
-.icons_conact img{
+.icons_conact img {
     height: 40px;
     padding-right: 30px;
     cursor: pointer;
@@ -3373,8 +3283,8 @@ font-size: 20px;
 
 @media only screen and (max-width :1360px) {
 
-    .form{
- margin-right: -200px
+    .form {
+        margin-right: -200px
     }
 
 }
@@ -3385,51 +3295,47 @@ font-size: 20px;
 @media only screen and (max-width :1129px) {
 
 
-.contact_grid{
+    .contact_grid {
 
-    grid-template-columns: repeat(1, 1fr);
-    margin: 0;
-   place-items: center;
-margin-right: 200px
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+        place-items: center;
+        margin-right: 200px
+    }
 
-
-}
     #map {
-  height: 40%;
-    width: 50%;
-padding: 200px 100px 200px 100px;
+        height: 40%;
+        width: 50%;
+        padding: 200px 100px 200px 100px;
         margin-top: 100px;
         margin-bottom: 100px;
         margin-left: 20px
+    }
 
-
-
-}
-    .form{
+    .form {
         margin-top: -100px;
 
     }
-    .contact_inner_grid_first{
+
+    .contact_inner_grid_first {}
+
+    .icons_conact img {
+        height: 30px;
 
     }
 
-    .icons_conact img{
-    height: 30px;
+    .title_conatc {
 
-}
+        font-size: 20px;
 
-.title_conatc{
-
-font-size: 20px;
-
-}
+    }
 
 
-.none_title{
+    .none_title {
 
-        font-size: 17px!important;
+        font-size: 17px !important;
 
-}
+    }
 
 
 }
@@ -3443,72 +3349,69 @@ font-size: 20px;
 
 
 
-.contact_grid{
+    .contact_grid {
 
-    grid-template-columns: repeat(1, 1fr);
-    margin: 0px 20px 0 20px;;
-   place-items: center;
-margin-right: 200px
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px 20px 0 20px;
+        ;
+        place-items: center;
+        margin-right: 200px
+    }
 
-
-}
     #map {
-  height: 30%;
-    width: 30%;
-padding: 200px 100px 200px 100px;
+        height: 30%;
+        width: 30%;
+        padding: 200px 100px 200px 100px;
         margin-top: 100px;
         margin-bottom: 100px;
         margin-left: 20px
+    }
 
+    .contact_inner_grid_first {}
 
-
-}
-    .contact_inner_grid_first{
+    .icons_conact img {
+        height: 30px;
 
     }
 
-    .icons_conact img{
-    height: 30px;
+    .title_conatc {
 
-}
+        font-size: 20px;
 
-.title_conatc{
-
-font-size: 20px;
-
-}
+    }
 
 
-.none_title{
+    .none_title {
 
-        font-size: 17px!important;
+        font-size: 17px !important;
 
-}
-    .contact_inner_grid{
+    }
+
+    .contact_inner_grid {
         margin-left: 30px
     }
 
-input[type=text]{
-padding: 10px 70px 10px 20px;
-    margin-top: 20px;
-         font-family: alibaba-sans, sans-serif;
-}
+    input[type=text] {
+        padding: 10px 70px 10px 20px;
+        margin-top: 20px;
+        font-family: alibaba-sans, sans-serif;
+    }
 
 
-textarea{
-padding: 10px 20px 10px 20px;
-    width: 200px;
-    margin-top: 20px;
-             font-family: alibaba-sans, sans-serif;
-}
+    textarea {
+        padding: 10px 20px 10px 20px;
+        width: 200px;
+        margin-top: 20px;
+        font-family: alibaba-sans, sans-serif;
+    }
 
 
 
-.form button{
-padding: 10px 105px 10px 105px;
-    margin-top: 30px;
-         font-family: alibaba-sans, sans-serif;
-}
+    .form button {
+        padding: 10px 105px 10px 105px;
+        margin-top: 30px;
+        font-family: alibaba-sans, sans-serif;
+    }
 
 
 
